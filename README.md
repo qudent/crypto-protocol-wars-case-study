@@ -33,3 +33,21 @@ With follow-up clarifications:
 > And it's not only crypto wars but also protocol wars
 
 Claude Code then fetched and read the full 22-page Bismarck Analysis PDF, dispatched three parallel research agents (crypto wars history, protocol wars history, nuclear-AI analogy + Anthropic-DoD details), performed additional web searches, and wrote the report in the structure of the original case study.
+
+### Substantive review prompts (post-draft)
+
+The human reviewed the draft and provided two substantive corrections:
+
+> You write: "Running in parallel with the crypto wars was a less publicized but equally consequential battle over the architecture of global computer networking..."
+>
+> I think from this passage it doesn't become clear enough _what political implications_ these architectures had. My understanding is this: If the internet today worked like the telco-designed stuff, there would be no pseudonymity against the state, you need to buy an "EU+" package to access up to 5 websites outside of your home country per day, there would be no VPN that chinese dissidents can use against the state's will because everyone would be tracked (in order to be billed), and setting up a server may require renting server space in a central telco-owned datacenter and 12 months of compliance process for the service (so no internet startups or maybe Wikipedia). Is this correct? You could even say given your report that the crypto wars were tilted in favour of the programmers because the protocol wars had been won, and it was possible to do and publish stuff like the Zimmermann code without going through institutions.
+
+> You write: "Moreover, the crypto community benefited from a crucial structural advantage: their work created economic value that politicians cared about. The nuclear scientists could appeal to morality and to the long-term survival of civilization, but these are abstractions in the world of politics..."
+>
+> That doesn't seem to make sense to me in this formulation - the politicians certainly cared about the military value of the nuclear bomb.
+
+Then:
+
+> Can you go through the report in more detail, not just these sections, and check how the rest could or would need to be rewritten in light of this or what kind of research would be germane there?
+
+Claude Code identified 11 sections needing revision to propagate the two insights (protocol wars as precondition; constituency alignment, not constituency existence), plus 5 areas for additional research (Minitel, China's Great Firewall, Lessig's "Code is Law", Isenberg's "Rise of the Stupid Network", ITU vs. ICANN at WSIS). All 11 sections were revised; Minitel and the Great Firewall were added as concrete counterfactuals.
