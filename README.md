@@ -51,3 +51,9 @@ Then:
 > Can you go through the report in more detail, not just these sections, and check how the rest could or would need to be rewritten in light of this or what kind of research would be germane there?
 
 Claude Code identified 11 sections needing revision to propagate the two insights (protocol wars as precondition; constituency alignment, not constituency existence), plus 5 areas for additional research (Minitel, China's Great Firewall, Lessig's "Code is Law", Isenberg's "Rise of the Stupid Network", ITU vs. ICANN at WSIS). All 11 sections were revised; Minitel and the Great Firewall were added as concrete counterfactuals.
+
+Then, correcting the Great Firewall framing:
+
+> Regarding China's great firewall. How exactly do you write this? My point is that thanks to TCP/IP and the infrastructure programmed on it that is "too-big-to-ban", even in 2026 it is possible to circumvent it by a VPN (and lots of people do so without fear of getting thrown into jail). What do you say about this?
+
+The Great Firewall references were rewritten: it proves the TCP/IP thesis, not the opposite. China built censorship *on top of* TCP/IP, and because TCP/IP is permissionless at the protocol level, the firewall is inherently porous — hundreds of millions circumvent it with VPNs. Had the network been built on telco/OSI principles, "VPN" would be a meaningless concept.
