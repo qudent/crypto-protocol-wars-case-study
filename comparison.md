@@ -17,7 +17,7 @@ This document provides a structured comparison across three cases of conflict be
 | | Nuclear | Crypto/Protocols | AI |
 |---|---------|-----------------|-----|
 | **Nature** | Physical (requires fissile material, industrial infrastructure) | Mathematical (algorithms, software) | Computational (requires data, compute, algorithms) |
-| **Reproducibility** | Very difficult (decades for each new nuclear state) | Trivial (copy software, publish papers) | Moderate (models can be open-sourced, but frontier models require massive compute) |
+| **Reproducibility** | Very difficult (decades for each new nuclear state) | Crypto software: trivial (copy and install). Network protocols: specification freely available (RFCs), but deploying infrastructure required major investment — though the physical layer was protocol-agnostic | Moderate (models can be open-sourced, but frontier models require massive compute) |
 | **Dual-use** | Weapons + energy, but weapons were primary | Security/privacy + surveillance, but civilian use was primary | Nearly everything; military and civilian uses deeply intertwined |
 | **State monopoly at origin** | Yes (Manhattan Project was classified) | Partial (NSA had monopoly on practice, but academic research was open) | No (developed primarily by private companies) |
 | **Commercial value** | Limited (nuclear energy, but weapons had no commercial market) | Enormous (all of e-commerce) | Enormous (potentially all knowledge work) |
@@ -46,7 +46,7 @@ This document provides a structured comparison across three cases of conflict be
 
 | Factor | Nuclear (favored state) | Crypto (favored technologists) | AI (?) |
 |--------|------------------------|-------------------------------|--------|
-| **Could technologists act unilaterally?** | No | Yes (publish code, deploy encryption) | Partially (can set AUP terms, but state can switch vendors) |
+| **Could technologists act unilaterally?** | No | Crypto software: yes (publish code, deploy encryption). Protocol wars: not individually — required a funded research community (DARPA, Berkeley, NSF) — but decisive action was at the software layer, not the physical infrastructure layer | Partially (can set AUP terms, but state can switch vendors) |
 | **Was there a commercial constituency?** | No | Yes (massive) | Yes (massive, but state is also a major customer) |
 | **Could the state enforce restrictions?** | Yes (control fissile material) | No (can't control math) | Partially (can blacklist, but can't stop the company from existing) |
 | **Was the public engaged?** | No (classified project) | Partially (crypto wars had public dimension) | Yes (highly public, politically polarized) |
@@ -62,7 +62,8 @@ This document provides a structured comparison across three cases of conflict be
 The single most important variable across all three cases is **whether the technologists could create facts on the ground** — deploying their preferred outcome before the government could prevent it.
 
 - **Nuclear**: Impossible. You cannot unilaterally prevent the use of a weapon you do not control.
-- **Crypto**: Fully possible. PGP was released before the government could stop it. TCP/IP was deployed before OSI could replace it.
+- **Crypto software**: Fully possible. PGP was released before the government could stop it.
+- **Protocols**: A different kind of "facts on the ground." No individual could build a TCP/IP network, but a funded research community (DARPA, Berkeley) shipped a superior free implementation with BSD Unix and let market dynamics displace OSI. The decisive artifact was software, not physical infrastructure — the same cables could carry either protocol. Not individual action, but not state-directed action either: a middle path where a small community with institutional backing created an irreversible fait accompli.
 - **AI**: Ambiguous. Anthropic can refuse to modify its AUP, but the government can switch to a competitor. The "facts on the ground" are the AUP terms embedded in a contract, which the government can cancel.
 
 ### 2. The Substitutability Problem
@@ -87,7 +88,7 @@ Anthropic's position is structurally closest to a defense contractor who refuses
 
 Burja distinguishes between "owned power" (power that cannot be taken away) and "borrowed power" (power that depends on someone else's permission). The nuclear scientists had only borrowed power — their influence depended entirely on the willingness of statesmen to listen.
 
-The cryptographers developed owned power: once PGP was released, no one could un-release it. Once TCP/IP was deployed, no one could un-deploy it. The code was the power.
+The cryptographers developed owned power: once PGP was released, no one could un-release it. The code was the power. The protocol wars involved a different scale of owned power: no individual "deployed TCP/IP" — it required DARPA funding, university teams, and eventually commercial ISPs. But the decisive artifact was software (the BSD sockets implementation), not physical infrastructure, and once TCP/IP reached critical mass, it was equally irreversible. The key distinction is that this owned power was created by a *community* with institutional backing, not by individuals — yet it was still fundamentally resistant to state reversal in a way that the nuclear scientists' influence was not.
 
 Anthropic's position is intermediate. Its intellectual property (the Claude model) is owned power in one sense — the government cannot take it. But its revenue depends on contracts that the government can cancel, and its regulatory environment depends on political goodwill that the government can withdraw. The supply chain risk designation is a direct attack on Anthropic's owned power, attempting to make it worthless by preventing others from doing business with the company.
 
@@ -121,6 +122,8 @@ The most realistic expectation is a hybrid outcome. AI shares features of both c
 - Like cryptography, AI knowledge diffuses rapidly (open-source models, published papers)
 - Like the crypto wars, commercial interests create powerful constituencies for certain outcomes
 - Like nuclear weapons, the military applications are strategically significant enough to trigger state action
+
+The crypto-vs-protocol distinction is illuminating here. AI model *weights*, once released as open source, behave like crypto software — trivially copyable, impossible to un-release, individual-scale deployment. But *training* frontier AI models behaves more like the protocol wars — requiring institutional-scale resources (compute clusters, data pipelines, research teams). The difference is that the protocol wars' institutional resources came from *research* institutions (DARPA, universities) whose interests happened to align with open architecture, while frontier AI training is funded by *commercial* companies whose interests may or may not align with safety or openness.
 
 The critical variable may be **whether open-source AI models become "good enough"** for most purposes. If they do, AI governance may follow the crypto trajectory — the technology becomes too widely distributed to control, and the government must adapt. If frontier models maintain a decisive advantage over open-source alternatives, and remain concentrated in a handful of companies, AI governance may follow the nuclear trajectory — with government control achieved through regulation, procurement, and coercion of a small number of actors.
 

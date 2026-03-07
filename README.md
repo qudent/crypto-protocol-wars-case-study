@@ -57,3 +57,15 @@ Then, correcting the Great Firewall framing:
 > Regarding China's great firewall. How exactly do you write this? My point is that thanks to TCP/IP and the infrastructure programmed on it that is "too-big-to-ban", even in 2026 it is possible to circumvent it by a VPN (and lots of people do so without fear of getting thrown into jail). What do you say about this?
 
 The Great Firewall references were rewritten: it proves the TCP/IP thesis, not the opposite. China built censorship *on top of* TCP/IP, and because TCP/IP is permissionless at the protocol level, the firewall is inherently porous — hundreds of millions circumvent it with VPNs. Had the network been built on telco/OSI principles, "VPN" would be a meaningless concept.
+
+Then, distinguishing crypto from protocols on "who could build it":
+
+> You write in the comparison table: "Who could build it — Anyone with a computer and mathematical knowledge." It seems to me like crypto and protocols are different here. After all, I can install OpenSSL but I can't build a telco network.
+
+The comparison tables and analysis sections in both report.md and comparison.md were revised to distinguish between crypto software (individual-scale: Zimmermann wrote PGP alone) and network protocols/infrastructure (institutional-scale: required DARPA funding, university teams like Berkeley BSD, NSF backbone investment). The key insight: the protocol wars were won at the *specification and software implementation* layer — where a small research community could operate — not at the physical infrastructure layer, which required major investment but was protocol-agnostic (same cables carry TCP/IP or OSI). A new analytical paragraph was added to the report explaining this cascading dependency: institutional effort built the platform, but the platform then enabled individual action by the cryptographers. The AI comparison was also refined: open-source model weights behave like crypto software (trivially copyable), while frontier model training behaves more like the protocol wars (institutional-scale resources).
+
+On the same pass, the "Reversibility" row was corrected:
+
+> You write: "Reversibility — Irreversible once used / Incremental, reversible deployment." I think TCP/IP is de facto quite irreversible, as IPv6 shows.
+
+The row was rewritten: crypto software can't be un-released once published; protocol infrastructure is effectively irreversible once at scale — IPv6, a backwards-compatible upgrade, has taken 25+ years and remains incomplete.
