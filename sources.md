@@ -17,6 +17,7 @@
 ## Crypto Wars — Key Secondary Sources
 
 - Levy, Steven. *Crypto: How the Code Rebels Beat the Government — Saving Privacy in the Digital Age*. New York: Viking, 2001.
+- Zimmermann, Philip R. *PGP Source Code and Internals*. Cambridge, MA: MIT Press, 1995.
 - Singh, Simon. *The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography*. New York: Anchor Books, 2000.
 - Electronic Frontier Foundation. "Crypto Wars One-Pagers." https://www.eff.org/files/2014/01/03/cryptowarsonepagers-1_cac.pdf
 - "Doomed to Repeat History? Lessons from the Crypto Wars of the 1990s." New America Foundation. https://static.newamerica.org/attachments/3407-doomed-to-repeat-history-lessons-from-the-crypto-wars-of-the-1990s/Crypto%20Wars_ReDo.7cb491837ac541709797bdf868d37f52.pdf
@@ -27,6 +28,25 @@
 - Cerf, Vinton G., and Robert E. Kahn. "A Protocol for Packet Network Intercommunication." *IEEE Transactions on Communications* 22, no. 5 (1974): 637-648.
 - Alvestrand, Harald. "A Mission Statement for the IETF." RFC 3935, October 2004.
 - Russell, Andrew L. *Open Standards and the Digital Age: History, Ideology, and Networks*. Cambridge: Cambridge University Press, 2014.
+- Clark, David D. "A Cloudy Crystal Ball: Visions of the Future." Presentation, 24th IETF Meeting, Cambridge, MA, July 1992. https://groups.csail.mit.edu/ana/People/DDC/future_ietf_92.pdf
+- Saltzer, Jerome H., David P. Reed, and David D. Clark. "End-to-End Arguments in System Design." *ACM Transactions on Computer Systems* 2, no. 4 (1984): 277-288.
+- Isenberg, David. "Rise of the Stupid Network." 1997. https://isen.com/stupid.html
+- Lessig, Lawrence. "Code is Law." *Harvard Magazine*, January 2000.
+- RFC 3724. "The Rise of the Middle and the Future of End-to-End." March 2004. https://datatracker.ietf.org/doc/html/rfc3724
+- "OSI: The Internet That Wasn't." IEEE Spectrum. https://spectrum.ieee.org/osi-the-internet-that-wasnt
+- "'Rough Consensus and Running Code' and the Internet-OSI Standards War." Duke University. https://courses.cs.duke.edu/common/compsci092/papers/govern/consensus.pdf
+
+## DNS Governance
+
+- ICANN History Project. https://www.icann.org/history
+- Internet Society. "The History of IANA." https://www.internetsociety.org/ianatimeline/
+- "The Day Jon Postel Freed The Internet Root From US Government Control." Domain Mondo, 2015. https://www.domainmondo.com/2015/04/the-day-jon-postel-freed-internet-root.html
+- NTIA. "NTIA Finds IANA Stewardship Transition Proposal Meets Criteria." 2016. https://www.ntia.gov/press-release/2016/ntia-finds-iana-stewardship-transition-proposal-meets-criteria-complete
+
+## Net Neutrality
+
+- Wu, Tim. "Network Neutrality, Broadband Discrimination." *Journal of Telecommunications and High Technology Law* 2 (2003). https://cdt.org/wp-content/uploads/speech/net-neutrality/2005wu.pdf
+- Free Press. "Net Neutrality Violations: A History of Abuse." https://www.freepress.net/blog/net-neutrality-violations-history-abuse
 
 ## Second Crypto War
 
@@ -58,6 +78,21 @@
 - "Pentagon CTO Urges Anthropic to 'Cross the Rubicon' on Military AI Use Cases Amid Ethics Dispute." DefenseScoop, February 19, 2026. https://defensescoop.com/2026/02/19/pentagon-anthropic-dispute-military-ai-hegseth-emil-michael/
 - "Who Is Emil Michael, the Trump Official Leading the War Against Anthropic?" Fortune, February 27, 2026. https://fortune.com/2026/02/27/emil-michael-the-silicon-valley-exec-turned-trump-official-leading-the-war-against-anthropic-has-deep-ties-to-the-tech-world/
 - "Anthropic v. Pentagon Reveals Enduring Rift Between Tech, National Security." Cornell Chronicle, 2026. https://news.cornell.edu/media-relations/tip-sheets/anthropic-v-pentagon-reveals-enduring-rift-between-tech-national
+
+## Nuclear-AI Analogy and AI Governance
+
+- Hatz, Sophia. "The Nuclear Analogy in AI Governance Research." arXiv:2510.21203.
+- "AI and the A-bomb: What the analogy captures and misses." Bulletin of the Atomic Scientists, September 2024. https://thebulletin.org/2024/09/ai-and-the-a-bomb-what-the-analogy-captures-and-misses/
+- "Nuclear Non-Proliferation Is the Wrong Framework for AI Governance." AI Frontiers / CSET, Georgetown University. https://ai-frontiers.org/articles/nuclear-non-proliferation-is-the-wrong-framework-for-ai-governance
+- "Beyond a Manhattan Project for Artificial General Intelligence." RAND Corporation, April 2025. https://www.rand.org/pubs/commentary/2025/04/beyond-a-manhattan-project-for-artificial-general-intelligence.html
+- "A Manhattan Project for AI Safety." Foundation for American Innovation. https://www.thefai.org/posts/a-manhattan-project-for-ai-safety
+- "Insights from Nuclear History for AI Governance." RAND Corporation. https://www.rand.org/content/dam/rand/pubs/perspectives/PEA3600/PEA3652-1/RAND_PEA3652-1.pdf
+- RFC 9446. "Reflections on Ten Years Past the Snowden Revelations." IETF. https://datatracker.ietf.org/doc/html/rfc9446
+
+## Salt Typhoon and FBI Encryption Reversal
+
+- "Salt Typhoon." Congressional Research Service, CRS Report IF12798. https://www.congress.gov/crs-product/IF12798
+- Virtru. "FBI Urges Americans to Adopt Encryption." https://www.virtru.com/blog/file-encryption/salt-typhoon-fbi-cisa
 
 ## Congressional Crypto Wars History
 
