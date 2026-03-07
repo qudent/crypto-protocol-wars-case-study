@@ -69,3 +69,9 @@ On the same pass, the "Reversibility" row was corrected:
 > You write: "Reversibility — Irreversible once used / Incremental, reversible deployment." I think TCP/IP is de facto quite irreversible, as IPv6 shows.
 
 The row was rewritten: crypto software can't be un-released once published; protocol infrastructure is effectively irreversible once at scale — IPv6, a backwards-compatible upgrade, has taken 25+ years and remains incomplete.
+
+Then, catching a misattribution:
+
+> You write: "Schneier's analysis of the Anthropic situation is apt: the EFF fought to ensure that privacy protections were embedded in law, not dependent on the decisions of individual companies." This seems hallucinated to me — I don't see Schneier mentioning the EFF? Or did Schneier talk about courts?
+
+The original sentence conflated two separate sources. Schneier's blog post argued that democratic legal structures, not corporate ethics, should govern AI procurement — but did not mention the EFF. The EFF's post argued that privacy protections "shouldn't depend on the decisions of a few powerful people" and are "properly a role for Congress and the courts" — but did not mention Schneier. The passage was rewritten to correctly attribute each argument to its source, with direct quotes from both.
