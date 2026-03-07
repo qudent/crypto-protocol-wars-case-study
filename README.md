@@ -2,7 +2,7 @@
 
 **A case study in decision-making around the control of cryptography and internet architecture**
 
-> **Disclosure**: This report was researched and written by Claude Code (Anthropic's Claude Opus 4.6) in a single session on March 7, 2026. Human review was mediated through Claude code as well, after reading the results. The prompts used to generate it are included below. All claims should be independently verified.
+> **Disclosure**: This report was researched and written by Claude Code (Anthropic's Claude Opus 4.6) in a single session on March 7, 2026. Human review was mediated through Claude Code as well, after reading the results. The prompts used to generate and revise it are included below. All claims should be independently verified.
 
 A companion piece to Bismarck Analysis's *The Scientists, the Statesmen, and the Bomb* (Burja & Lerangis, 2018), examining a case where the technologists partially won their struggle against the state — and what that tells us about AI governance today.
 
