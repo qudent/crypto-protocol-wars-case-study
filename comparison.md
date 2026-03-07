@@ -6,7 +6,7 @@ This document provides a structured comparison across three cases of conflict be
 
 1. **Nuclear weapons** (1939-1950s) — analyzed by Burja & Lerangis (2018)
 2. **Cryptography and internet protocols** (1970s-present) — analyzed in the companion report
-3. **Artificial intelligence** (2020s-present) — emerging, with the Anthropic-DoD standoff as the pivotal early case
+3. **Artificial intelligence** (2020s-present) — emerging, with the Anthropic-DoD standoff as an early high-profile case
 
 ---
 
@@ -28,7 +28,7 @@ This document provides a structured comparison across three cases of conflict be
 |---|-------------------|------------------------|---------------|
 | **Organizational form** | Individual scientists within government projects | Loose community (cypherpunks) + companies + academics | Companies (Anthropic, OpenAI, Google DeepMind) |
 | **Relationship to state** | Employees/contractors | Independent, often adversarial | Contractors/vendors, complex dependency |
-| **Primary leverage** | Intellectual prestige | Ability to build and deploy; commercial value | Commercial value; technical capability the state cannot replicate |
+| **Primary leverage** | Intellectual prestige | Ability to build and deploy; commercial value | Commercial value; some contractual and technical control over access |
 | **Culture** | Academic, internationalist | Libertarian, anti-authoritarian, hacker ethic | Safety-conscious, but also commercially driven |
 | **Political sophistication** | Low (cultural misfit with statesmen) | Medium (developed EFF, industry lobbying) | Medium-high (Anthropic's leadership includes policy professionals) |
 
@@ -36,10 +36,10 @@ This document provides a structured comparison across three cases of conflict be
 
 | | Nuclear | Crypto/Protocols | AI (Anthropic-DoD) |
 |---|---------|-----------------|---------------------|
-| **Government's goal** | Maintain weapons monopoly; use bomb as geopolitical tool | Maintain surveillance capability; control network architecture | Unrestricted military use of AI technology |
-| **Technologists' goal** | Prevent catastrophic use; international control | Strong encryption for all; open internet architecture | Prevent autonomous weapons and mass surveillance |
-| **Mechanism of government control** | Classification, military hierarchy | Export controls, criminal prosecution, mandated standards | Procurement contracts, supply chain designation, executive orders |
-| **Mechanism of technologist resistance** | Petitions, memos, lobbying | Writing code, publishing papers, litigation, market forces | Acceptable use policies, contract terms, litigation |
+| **Government's goal** | Maintain weapons monopoly; use bomb as geopolitical tool | Maintain surveillance capability; promote more governable network arrangements | Broader military use of frontier AI without vendor-imposed restrictions |
+| **Technologists' goal** | Prevent catastrophic use; international control | Strong encryption for all; open internet architecture | Restrict certain military and surveillance uses |
+| **Mechanism of government control** | Classification, military hierarchy | Export controls, criminal prosecution, mandated standards | Procurement contracts, supply chain designation, executive pressure |
+| **Mechanism of technologist resistance** | Petitions, memos, lobbying | Writing code, publishing papers, litigation, market forces | Usage policies, contract terms, technical controls, litigation |
 | **Outcome** | Government won almost completely | Technologists won partially | Ongoing; initial government retaliation, but outcome uncertain |
 
 ### The Decisive Factors
@@ -47,8 +47,8 @@ This document provides a structured comparison across three cases of conflict be
 | Factor | Nuclear (favored state) | Crypto (favored technologists) | AI (?) |
 |--------|------------------------|-------------------------------|--------|
 | **Could technologists act unilaterally?** | No | Crypto software: yes (publish code, deploy encryption). Protocol wars: not individually — required a funded research community (DARPA, Berkeley, NSF) — but decisive action was at the software layer, not the physical infrastructure layer | Partially (can set AUP terms, but state can switch vendors) |
-| **Was there a commercial constituency?** | No | Yes (massive) | Yes (massive, but state is also a major customer) |
-| **Could the state enforce restrictions?** | Yes (control fissile material) | No (can't control math) | Partially (can blacklist, but can't stop the company from existing) |
+| **Was there a commercial constituency?** | No independent one; major commercial interests were aligned with the state | Yes (massive and largely independent of the state) | Yes (massive, but the state is also a major customer) |
+| **Could the state enforce restrictions?** | Yes (control fissile material) | Only partially; published mathematics and software distribution were hard to monopolize | Partially (can blacklist or pressure vendors, but not fully monopolize the field) |
 | **Was the public engaged?** | No (classified project) | Partially (crypto wars had public dimension) | Yes (highly public, politically polarized) |
 | **Were there alternative suppliers?** | No (U.S. monopoly briefly) | Yes (non-U.S. crypto products) | Yes (OpenAI immediately stepped in) |
 | **Timeframe for decisions** | Compressed (wartime) | Extended (decades) | Compressed (days in the standoff, but broader debate ongoing) |
@@ -62,35 +62,35 @@ This document provides a structured comparison across three cases of conflict be
 The single most important variable across all three cases is **whether the technologists could create facts on the ground** — deploying their preferred outcome before the government could prevent it.
 
 - **Nuclear**: Impossible. You cannot unilaterally prevent the use of a weapon you do not control.
-- **Crypto software**: Fully possible. PGP was released before the government could stop it.
-- **Protocols**: A different kind of "facts on the ground." No individual could build a TCP/IP network, but a funded research community (DARPA, Berkeley) shipped a superior free implementation with BSD Unix and let market dynamics displace OSI. The decisive artifact was software, not physical infrastructure — the same cables could carry either protocol. Not individual action, but not state-directed action either: a middle path where a small community with institutional backing created an irreversible fait accompli.
-- **AI**: Ambiguous. Anthropic can refuse to modify its AUP, but the government can switch to a competitor. The "facts on the ground" are the AUP terms embedded in a contract, which the government can cancel.
+- **Crypto software**: Largely possible. PGP was released before the government could stop it.
+- **Protocols**: A different kind of "facts on the ground." No individual could build a TCP/IP network, but a funded research community (DARPA, Berkeley) shipped a superior free implementation with BSD Unix and let market dynamics displace OSI. The decisive artifact was software, not physical infrastructure — the same cables could carry either protocol. Not individual action, but not purely top-down state direction either: a middle path where a small community with institutional backing created a hard-to-reverse installed base.
+- **AI**: Ambiguous. Anthropic can refuse some terms, but the government can switch to a competitor. The relevant "facts on the ground" are contract terms and technical controls that may be removed, modified, or bypassed through procurement decisions.
 
 ### 2. The Substitutability Problem
 
 A critical new dynamic in the AI case is **substitutability**. In the crypto wars, non-U.S. products could substitute for restricted American encryption, but this worked *in favor* of the technologists' goals (more encryption everywhere). In the AI case, substitutability works *against* the safety-conscious technologist: OpenAI stepped in to fill the gap left by Anthropic, potentially without the same restrictions.
 
-This is the "race to the bottom" dynamic that Schneier identifies. When one company takes a principled stand, a competitor can profit by being less principled. This dynamic was absent in the crypto wars because all cryptographers shared the same goal (more encryption), and absent in the nuclear case because there was no market.
+This is the "race to the bottom" dynamic that Schneier identifies. When one company takes a principled stand, a competitor can profit by being less principled. This dynamic was weaker in the crypto wars because the main activist and commercial coalitions broadly converged on the same direction of travel (more encryption), and absent in the nuclear case because there was no comparable open market.
 
 ### 3. The Contractor vs. Creator Distinction
 
 Nuclear scientists were *employees* of the state. Cryptographers were *independent actors* creating public goods. AI companies are *contractors/vendors* — neither employees nor fully independent. This intermediate position gives them more leverage than the nuclear scientists had (they can walk away from the contract) but less than the cryptographers (they depend on government contracts and regulatory goodwill).
 
-Anthropic's position is structurally closest to a defense contractor who refuses to build a weapon — something that has rarely happened in history, because defense contractors that refuse to build what the military wants tend to be replaced by contractors who will.
+Anthropic's position is structurally closest to a defense contractor who refuses a category of military work. That is an awkward position: if one contractor refuses, another may take the work.
 
 ### 4. The Role of Secrecy
 
 - **Nuclear**: Total secrecy prevented public debate, deprived scientists of allies, and concentrated power in a tiny group of decision-makers.
 - **Crypto**: Partial secrecy (NSA activities classified, but the debate itself was public). The public nature of the debate was essential to the technologists' success.
-- **AI**: Highly public from the start. The Anthropic-DoD standoff played out in real time on social media, in news coverage, and in leaked memos. This public visibility has mixed effects: it generates public support but also enables political retaliation (Trump's executive order was partly performative).
+- **AI**: Highly public from the start. The Anthropic-DoD standoff played out in real time on social media, in news coverage, and in leaked memos. This public visibility has mixed effects: it generates public scrutiny and potential support, but also enables performative political retaliation.
 
 ### 5. Burja's "Owned Power" vs. "Borrowed Power"
 
 Burja distinguishes between "owned power" (power that cannot be taken away) and "borrowed power" (power that depends on someone else's permission). The nuclear scientists had only borrowed power — their influence depended entirely on the willingness of statesmen to listen.
 
-The cryptographers developed owned power: once PGP was released, no one could un-release it. The code was the power. The protocol wars involved a different scale of owned power: no individual "deployed TCP/IP" — it required DARPA funding, university teams, and eventually commercial ISPs. But the decisive artifact was software (the BSD sockets implementation), not physical infrastructure, and once TCP/IP reached critical mass, it was equally irreversible. The key distinction is that this owned power was created by a *community* with institutional backing, not by individuals — yet it was still fundamentally resistant to state reversal in a way that the nuclear scientists' influence was not.
+The cryptographers developed owned power: once PGP was released, no one could un-release it. The code was the power. The protocol wars involved a different scale of owned power: no individual "deployed TCP/IP" — it required DARPA funding, university teams, and eventually commercial ISPs. But the decisive artifact was software (the BSD sockets implementation), not physical infrastructure, and once TCP/IP reached critical mass, it became very difficult to reverse. The key distinction is that this owned power was created by a *community* with institutional backing, not by individuals — yet it was still far more resistant to state reversal than the nuclear scientists' influence was.
 
-Anthropic's position is intermediate. Its intellectual property (the Claude model) is owned power in one sense — the government cannot take it. But its revenue depends on contracts that the government can cancel, and its regulatory environment depends on political goodwill that the government can withdraw. The supply chain risk designation is a direct attack on Anthropic's owned power, attempting to make it worthless by preventing others from doing business with the company.
+Anthropic's position is intermediate. Its intellectual property (the Claude model) is owned power in one sense — the government cannot simply seize the capability by fiat. But its revenue depends on contracts that the government can cancel, and its regulatory environment depends on political goodwill that the government can withdraw. The supply chain risk designation is therefore an attempt to diminish the practical value of that owned power by making the company harder to use.
 
 ---
 
@@ -98,16 +98,16 @@ Anthropic's position is intermediate. Its intellectual property (the Claude mode
 
 ### If the Crypto Wars Are the Right Analogy
 
-If AI governance follows the crypto wars trajectory, we should expect:
+If AI governance follows something like the crypto wars trajectory, we should expect:
 - Initial government overreach and industry resistance
 - Gradual establishment of legal and market norms
 - Government adaptation to new equilibrium (finding alternative surveillance/control mechanisms)
-- Ultimate outcome: AI with safety features becomes standard, not because of regulation but because of market demand and technical norms
+- One plausible outcome: some AI safety features become standard through a mix of market demand, technical norms, and selective regulation
 - Ongoing, never-fully-resolved tension between government access demands and safety/privacy concerns
 
 ### If the Nuclear Weapons Case Is the Right Analogy
 
-If AI governance follows the nuclear trajectory, we should expect:
+If AI governance follows something closer to the nuclear trajectory, we should expect:
 - Government success in asserting control over the most powerful AI systems
 - Safety-conscious developers marginalized or co-opted
 - AI development concentrated in a small number of state-affiliated organizations
@@ -125,6 +125,6 @@ The most realistic expectation is a hybrid outcome. AI shares features of both c
 
 The crypto-vs-protocol distinction is illuminating here. AI model *weights*, once released as open source, behave like crypto software — trivially copyable, impossible to un-release, individual-scale deployment. But *training* frontier AI models behaves more like the protocol wars — requiring institutional-scale resources (compute clusters, data pipelines, research teams). The difference is that the protocol wars' institutional resources came from *research* institutions (DARPA, universities) whose interests happened to align with open architecture, while frontier AI training is funded by *commercial* companies whose interests may or may not align with safety or openness.
 
-The critical variable may be **whether open-source AI models become "good enough"** for most purposes. If they do, AI governance may follow the crypto trajectory — the technology becomes too widely distributed to control, and the government must adapt. If frontier models maintain a decisive advantage over open-source alternatives, and remain concentrated in a handful of companies, AI governance may follow the nuclear trajectory — with government control achieved through regulation, procurement, and coercion of a small number of actors.
+The critical variable may be **whether open-source AI models become "good enough"** for most purposes. If they do, AI governance may follow more of the crypto trajectory — the technology becomes too widely distributed to control cleanly, and the government must adapt. If frontier models maintain a decisive advantage over open-source alternatives, and remain concentrated in a handful of companies, AI governance may follow more of the nuclear trajectory — with stronger government control pursued through regulation, procurement, and coercion of a small number of actors.
 
-The Anthropic-DoD standoff of March 2026 is the first major test case. Its resolution will signal which trajectory is more likely.
+The Anthropic-DoD standoff of March 2026 is an important early test case. Its resolution will be an early signal, not a final verdict.

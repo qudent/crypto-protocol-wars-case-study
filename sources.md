@@ -35,34 +35,42 @@
 - RFC 3724. "The Rise of the Middle and the Future of End-to-End." March 2004. https://datatracker.ietf.org/doc/html/rfc3724
 - "OSI: The Internet That Wasn't." IEEE Spectrum. https://spectrum.ieee.org/osi-the-internet-that-wasnt
 - "'Rough Consensus and Running Code' and the Internet-OSI Standards War." Duke University. https://courses.cs.duke.edu/common/compsci092/papers/govern/consensus.pdf
+- Leiner, Barry M., et al. "A Brief History of the Internet." Internet Society. https://www.internetsociety.org/internet/history-internet/brief-history-internet/
 
 ## DNS Governance
 
 - ICANN History Project. https://www.icann.org/history
 - Internet Society. "The History of IANA." https://www.internetsociety.org/ianatimeline/
 - "The Day Jon Postel Freed The Internet Root From US Government Control." Domain Mondo, 2015. https://www.domainmondo.com/2015/04/the-day-jon-postel-freed-internet-root.html
+- Root Server System Advisory Committee. "RSSAC023: History of the Root Server System." ICANN, June 2020. https://itp.cdn.icann.org/en/files/root-server-system-advisory-committee-rssac-publications/rssac-023-17jun20-en.pdf
 - NTIA. "NTIA Finds IANA Stewardship Transition Proposal Meets Criteria." 2016. https://www.ntia.gov/press-release/2016/ntia-finds-iana-stewardship-transition-proposal-meets-criteria-complete
 
 ## Net Neutrality
 
 - Wu, Tim. "Network Neutrality, Broadband Discrimination." *Journal of Telecommunications and High Technology Law* 2 (2003). https://cdt.org/wp-content/uploads/speech/net-neutrality/2005wu.pdf
 - Free Press. "Net Neutrality Violations: A History of Abuse." https://www.freepress.net/blog/net-neutrality-violations-history-abuse
+- *Ohio Telecom Association v. FCC*, No. 24-3449 (6th Cir. Jan. 2, 2025). https://www.opn.ca6.uscourts.gov/opinions.pdf/25a0002p-06.pdf
 
 ## Second Crypto War
 
 - Cook, Tim. "A Message to Our Customers." Apple Inc., February 16, 2016. https://www.apple.com/customer-letter/
 - Comey, James. "Going Dark: Are Technology, Privacy, and Public Safety on a Collision Course?" Brookings Institution, October 16, 2014.
 - Snowden, Edward. *Permanent Record*. New York: Metropolitan Books, 2019.
+- Privacy and Civil Liberties Oversight Board. "Report on the Surveillance Program Operated Pursuant to Section 702 of the Foreign Intelligence Surveillance Act." 2022. https://documents.pclob.gov/prod/Documents/OversightReport/ba65702c-3541-4125-a67d-92a7f974fc4c/702-Report-2%20-%20Complete%20-%20Nov%2014%202022%201548.pdf
 
 ## Australia and UK Encryption Laws
 
 - Telecommunications and Other Legislation Amendment (Assistance and Access) Act 2018 (Commonwealth of Australia).
 - UK Investigatory Powers Act 2016. Technical Capability Notices to Apple, January 2025, September 2025.
+- Apple Support. "Advanced Data Protection for iCloud is no longer offered in the United Kingdom to new users." September 22, 2025. https://support.apple.com/en-lamr/122234
 - Electronic Frontier Foundation. "The UK Is Still Trying to Backdoor Encryption for Apple Users." October 2025. https://www.eff.org/deeplinks/2025/10/uk-still-trying-backdoor-encryption-apple-users
 - Global Encryption Coalition. "Joint Letter on the UK Government's Use of Investigatory Powers Act to Attack End-to-End Encryption." February 2025. https://www.globalencryption.org/2025/02/joint-letter-on-the-uk-governments-use-of-investigatory-powers-act-to-attack-end-to-end-encryption/
 
 ## Anthropic-DoD Standoff (February-March 2026)
 
+- Anthropic. "Where We Stand With the Department of War." March 2026. https://www.anthropic.com/news/where-stand-department-war?lang=us
+- Anthropic. "Statement on Comments by the Secretary of War." February 26, 2026. https://www.anthropic.com/news/statement-comments-secretary-war
+- Anthropic. "Department of War Partnerships." 2026. https://www.anthropic.com/dow
 - "OpenAI Announces Pentagon Deal After Trump Bans Anthropic." NPR, February 27, 2026. https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban
 - "Anthropic Officially Told by DOD That It's a Supply Chain Risk Even as Claude Used in Iran." CNBC, March 5, 2026. https://www.cnbc.com/2026/03/05/anthropic-pentagon-ai-claude-iran.html
 - "Anthropic CEO Dario Amodei Calls OpenAI's Messaging Around Military Deal 'Straight Up Lies,' Report Says." TechCrunch, March 4, 2026. https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/
@@ -92,6 +100,8 @@
 ## Salt Typhoon and FBI Encryption Reversal
 
 - "Salt Typhoon." Congressional Research Service, CRS Report IF12798. https://www.congress.gov/crs-product/IF12798
+- CISA. "Mobile Communications Best Practice Guidance." December 2024. https://www.cisa.gov/resources-tools/resources/mobile-communications-best-practice-guidance
+- CISA. "Guidance: Mobile Communications Best Practices." PDF, December 2024. https://www.cisa.gov/sites/default/files/2024-12/guidance-mobile-communications-best-practices.pdf
 - Virtru. "FBI Urges Americans to Adopt Encryption." https://www.virtru.com/blog/file-encryption/salt-typhoon-fbi-cisa
 
 ## Congressional Crypto Wars History
