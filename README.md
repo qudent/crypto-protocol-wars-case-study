@@ -75,3 +75,5 @@ Then, catching a misattribution:
 > You write: "Schneier's analysis of the Anthropic situation is apt: the EFF fought to ensure that privacy protections were embedded in law, not dependent on the decisions of individual companies." This seems hallucinated to me — I don't see Schneier mentioning the EFF? Or did Schneier talk about courts?
 
 The original sentence conflated two separate sources. Schneier's blog post argued that democratic legal structures, not corporate ethics, should govern AI procurement — but did not mention the EFF. The EFF's post argued that privacy protections "shouldn't depend on the decisions of a few powerful people" and are "properly a role for Congress and the courts" — but did not mention Schneier. The passage was rewritten to correctly attribute each argument to its source, with direct quotes from both.
+
+User: this doesn't mention at all that the military supported the TCP/IP protocol and doesn't analyze how important that was
