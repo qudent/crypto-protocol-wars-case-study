@@ -76,4 +76,8 @@ Then, catching a misattribution:
 
 The original sentence conflated two separate sources. Schneier's blog post argued that democratic legal structures, not corporate ethics, should govern AI procurement — but did not mention the EFF. The EFF's post argued that privacy protections "shouldn't depend on the decisions of a few powerful people" and are "properly a role for Congress and the courts" — but did not mention Schneier. The passage was rewritten to correctly attribute each argument to its source, with direct quotes from both.
 
-User: this doesn't mention at all that the military supported the TCP/IP protocol and doesn't analyze how important that was
+Then, noting a major gap:
+
+> This doesn't mention at all that the military supported the TCP/IP protocol and doesn't analyze how important that was.
+
+The report had mentioned DARPA's funding of the Berkeley BSD implementation but did not analyze the broader significance of military patronage for TCP/IP. The revisions added: (1) ARPANET as a DoD project from 1969, with Cerf and Kahn developing TCP/IP under continuous DARPA funding; (2) the January 1, 1983 "flag day" when the DoD mandated TCP/IP on ARPANET, giving it a decisive installed base before the OSI competition; (3) the MILNET split; (4) the intra-government conflict between DARPA (pro-TCP/IP) and NIST/Commerce (pro-OSI via GOSIP); (5) the deep irony that the military funded the very infrastructure that cypherpunks later used to resist government control of cryptography; and (6) the analytical point that unlike the nuclear case — where the military was uniformly aligned against the dissenting scientists — the protocol wars had the military as the technologists' most important patron, complicating the "technologists vs. the state" framing. The comparison tables in both report.md and comparison.md were updated accordingly, and Cerf's role as DARPA program manager was added to his player entry.

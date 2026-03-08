@@ -28,6 +28,20 @@
 - Cerf, Vinton G., and Robert E. Kahn. "A Protocol for Packet Network Intercommunication." *IEEE Transactions on Communications* 22, no. 5 (1974): 637-648.
 - Alvestrand, Harald. "A Mission Statement for the IETF." RFC 3935, October 2004.
 - Russell, Andrew L. *Open Standards and the Digital Age: History, Ideology, and Networks*. Cambridge: Cambridge University Press, 2014.
+
+### Military Patronage and TCP/IP Adoption
+
+- DARPA. "ARPANET." https://www.darpa.mil/news/features/arpanet
+- RFC 945. "DoD Statement on the NRC Recommendation on Adoption of the OSI Transport Protocol TP-4." May 1985. https://www.rfc-editor.org/rfc/rfc945
+- RFC 939. "Executive Summary of the NRC Report on Transport Protocols for DoD Data Networks." February 1985. https://datatracker.ietf.org/doc/rfc939/
+- "The Department of Defense — OSI and TCP/IP." *History of Computer Communications*. https://historyofcomputercommunications.info/section/14.5/The-Department-of-Defense-OSI-and-TCP-IP/
+- "History of the Berkeley Software Distribution." *Wikipedia*. https://en.wikipedia.org/wiki/History_of_the_Berkeley_Software_Distribution
+- "History of FreeBSD Part 4: BSD and TCP/IP." Klara Systems. https://klarasystems.com/articles/history-of-freebsd-part-4-bsd-and-tcp-ip/
+- McKusick, Marshall Kirk. "Twenty Years of Berkeley Unix." *Open Sources: Voices from the Open Source Revolution*. O'Reilly, 1999. https://www.oreilly.com/openbook/opensources/book/kirkmck.html
+- "MILNET." *Wikipedia*. https://en.wikipedia.org/wiki/MILNET
+- "Government Open Systems Interconnection Profile." *Wikipedia*. https://en.wikipedia.org/wiki/Government_Open_Systems_Interconnection_Profile
+- Internet Society. "Final Report on TCP/IP Migration in 1983." September 2016. https://www.internetsociety.org/blog/2016/09/final-report-on-tcpip-migration-in-1983/
+- ACM Turing Award. "Vinton Gray Cerf." https://amturing.acm.org/award_winners/cerf_1083211.cfm
 - Clark, David D. "A Cloudy Crystal Ball: Visions of the Future." Presentation, 24th IETF Meeting, Cambridge, MA, July 1992. https://groups.csail.mit.edu/ana/People/DDC/future_ietf_92.pdf
 - Saltzer, Jerome H., David P. Reed, and David D. Clark. "End-to-End Arguments in System Design." *ACM Transactions on Computer Systems* 2, no. 4 (1984): 277-288.
 - Isenberg, David. "Rise of the Stupid Network." 1997. https://isen.com/stupid.html
